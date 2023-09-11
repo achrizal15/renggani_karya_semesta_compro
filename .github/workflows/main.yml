@@ -14,9 +14,6 @@ jobs:
                - name: 📂 SERVER JASERBA
                  uses: SamKirkland/FTP-Deploy-Action@v4.3.4
                  with:
-                      server: ftp.rgtesting.site
-                      username: rengganikaryasemesta@rengganikaryasemesta.com
-                      password: pusing081
-                      #   server: FTP_SERVER
-                      #   username: FTP_USERNAME
-                      #   password: FTP_PASSWORD
+                      server: FTP_SERVER
+                      username: FTP_USERNAME
+                      password: FTP_PASSWORD
