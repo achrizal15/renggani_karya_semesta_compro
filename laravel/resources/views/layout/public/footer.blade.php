@@ -1,29 +1,6 @@
 <footer>
     <!-- tp-footer-area-start -->
-    <div class="tp-footer__area theme-bg pt-120 pb-50">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-12">
-                    <div class="tp-footer__content text-center">
-                        <h3 class="tp-section-title text-white wow tpfadeUp" data-wow-duration=".9s" data-wow-delay=".3s">
-                            Ready To Download 📥</h3>
-                        <p class="wow tpfadeUp" data-wow-duration=".9s" data-wow-delay=".5s">Discover your new
-                            favorite spaces, from Sao Paulo to Seoul. Download from App Store or Google Play.</p>
-                    </div>
-                    <div class="tp-footer__thumb d-flex justify-content-center wow tpfadeUp" data-wow-duration=".9s"
-                        data-wow-delay=".7s">
-                        <div class="tp-footer__thumb-sm">
-                            <a href="#"><img src="{{ asset('template') }}/assets/img/app/app-2.png"
-                                    alt=""></a>
-                        </div>
-                        <div class="tp-footer__thumb-sm">
-                            <a href="#"><img src="{{ asset('template') }}/assets/img/app/app-3.png"
-                                    alt=""></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+    <div class="tp-footer__area theme-bg pb-50">
         <div class="tp-footer-bottom__area mt-80 wow tpfadeUp" data-wow-duration=".9s" data-wow-delay=".9s">
             <div class="container">
                 <div class="tp-footer-bottom__border-top pt-40">
@@ -37,11 +14,11 @@
                         <div class="col-xl-7 col-lg-7 col-md-12 col-12 order-1 order-lg-2 d-none d-sm-block">
                             <div class="tp-footer-bottom__menu">
                                 <ul>
-                                    <li><a href="#">Features</a></li>
-                                    <li><a href="#">Riviews</a></li>
-                                    <li><a href="price.html">Pricing</a></li>
+                                    <li><a href="price.html">LAYANAN</a></li>
+                                    <li><a href="price.html">PROJEK</a></li>
+                                    <li><a href="price.html">TENTANG</a></li>
+                                    <li><a href="price.html">Harga</a></li>
                                     <li><a href="faq.html">FAQ</a></li>
-                                    <li><a href="blog-details.html">Blog</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -49,9 +26,7 @@
                             <div class="tp-footer-bottom__social">
                                 <ul>
                                     <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                    <li><a href="#"><i class="fab fa-youtube"></i></a></li>
                                     <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
                                 </ul>
                             </div>
                         </div>
