@@ -15,7 +15,7 @@
             <div class="tp-service__slider-active">
                 <div class="tp-service__item wow tpfadeUp" data-wow-duration=".9s" data-wow-delay=".5s">
                     <div class="tp-service__icon">
-                        <img src="{{ asset('template') }}/assets/img/service/service-icon-1.png" alt="">
+                        <img src="{{ asset('dist/public') }}/assets/img/service/service-icon-1.png" alt="">
                     </div>
                     <div class="tp-service__content">
                         <h4 class="tp-service__title-sm"><a href="service-details.html">IT </a></h4>
@@ -35,7 +35,7 @@
                 </div>
                 <div class="tp-service__item wow tpfadeUp" data-wow-duration=".9s" data-wow-delay=".7s">
                     <div class="tp-service__icon">
-                        <img src="{{ asset('template') }}/assets/img/service/service-icon-2.png" alt="">
+                        <img src="{{ asset('dist/public') }}/assets/img/service/service-icon-2.png" alt="">
                     </div>
                     <div class="tp-service__content">
                         <h4 class="tp-service__title-sm"><a href="service-details.html">Data Solution</a></h4>
@@ -55,7 +55,7 @@
                 </div>
                 <div class="tp-service__item wow tpfadeUp" data-wow-duration=".9s" data-wow-delay=".9s">
                     <div class="tp-service__icon">
-                        <img src="{{ asset('template') }}/assets/img/service/service-icon-3.png" alt="">
+                        <img src="{{ asset('dist/public') }}/assets/img/service/service-icon-3.png" alt="">
                     </div>
                     <div class="tp-service__content">
                         <h4 class="tp-service__title-sm"><a href="service-details.html">Web Design</a></h4>
@@ -75,7 +75,7 @@
                 </div>
                 <div class="tp-service__item wow tpfadeUp" data-wow-duration=".9s" data-wow-delay="1s">
                     <div class="tp-service__icon">
-                        <img src="{{ asset('template') }}/assets/img/service/service-icon-2.png" alt="">
+                        <img src="{{ asset('dist/public') }}/assets/img/service/service-icon-2.png" alt="">
                     </div>
                     <div class="tp-service__content">
                         <h4 class="tp-service__title-sm"><a href="service-details.html">graphic design</a>
@@ -96,7 +96,7 @@
                 </div>
                 <div class="tp-service__item wow tpfadeUp" data-wow-duration=".9s" data-wow-delay="1.2s">
                     <div class="tp-service__icon">
-                        <img src="{{ asset('template') }}/assets/img/service/service-icon-1.png" alt="">
+                        <img src="{{ asset('dist/public') }}/assets/img/service/service-icon-1.png" alt="">
                     </div>
                     <div class="tp-service__content">
                         <h4 class="tp-service__title-sm"><a href="service-details.html">IT Solution</a></h4>
