@@ -57,8 +57,8 @@
                    <div class="col-xl-2 col-lg-2 col-md-6 col-7">
                        <div class="tp-header__logo">
                            <a href="{{ route('home') }}">
-                               <img src="{{ asset('template/public') }}/assets/img/logo/logo-black.svg"
-                                   alt="logo-renggani" width='50px'>
+                               <img src="{{ asset('dist/public') }}/assets/img/logo/logo-black.svg" alt="logo-renggani"
+                                   width='50px'>
                            </a>
                        </div>
                    </div>
@@ -104,7 +104,7 @@
            </div>
            <div class="tpoffcanvas__logo">
                <a href="index.html">
-                   <img src="{{ asset('template/public') }}/assets/img/logo/logo.svg" alt="">
+                   <img src="{{ asset('dist/public') }}/assets/img/logo/logo.svg" alt="">
                </a>
            </div>
 
