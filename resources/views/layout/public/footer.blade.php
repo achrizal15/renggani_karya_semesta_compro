@@ -7,7 +7,7 @@
                     <div class="row align-items-center">
                         <div class="col-xl-2 col-lg-2 col-md-6 col-12 order-2 order-lg-1 text-center text-md-start">
                             <div class="tp-footer-bottom__logo">
-                                <a href="index.html"><img src="{{ asset('template') }}/assets/img/logo/logo.svg"
+                                <a href="index.html"><img src="{{ asset('template/public') }}/assets/img/logo/logo.svg"
                                         alt=""></a>
                             </div>
                         </div>
@@ -39,17 +39,17 @@
 </footer>
 
 <!-- JS here -->
-<script src="{{ asset('template') }}/assets/js/jquery.js"></script>
-<script src="{{ asset('template') }}/assets/js/waypoints.js"></script>
-<script src="{{ asset('template') }}/assets/js/bootstrap.bundle.min.js"></script>
-<script src="{{ asset('template') }}/assets/js/swiper-bundle.js"></script>
-<script src="{{ asset('template') }}/assets/js/slick.js"></script>
-<script src="{{ asset('template') }}/assets/js/magnific-popup.js"></script>
-<script src="{{ asset('template') }}/assets/js/counterup.js"></script>
-<script src="{{ asset('template') }}/assets/js/wow.js"></script>
-<script src="{{ asset('template') }}/assets/js/nice-select.js"></script>
-<script src="{{ asset('template') }}/assets/js/meanmenu.js"></script>
-<script src="{{ asset('template') }}/assets/js/isotope-pkgd.js"></script>
-<script src="{{ asset('template') }}/assets/js/imagesloaded-pkgd.js"></script>
-<script src="{{ asset('template') }}/assets/js/ajax-form.js"></script>
-<script src="{{ asset('template') }}/assets/js/main.js"></script>
+<script src="{{ asset('template/public') }}/assets/js/jquery.js"></script>
+<script src="{{ asset('template/public') }}/assets/js/waypoints.js"></script>
+<script src="{{ asset('template/public') }}/assets/js/bootstrap.bundle.min.js"></script>
+<script src="{{ asset('template/public') }}/assets/js/swiper-bundle.js"></script>
+<script src="{{ asset('template/public') }}/assets/js/slick.js"></script>
+<script src="{{ asset('template/public') }}/assets/js/magnific-popup.js"></script>
+<script src="{{ asset('template/public') }}/assets/js/counterup.js"></script>
+<script src="{{ asset('template/public') }}/assets/js/wow.js"></script>
+<script src="{{ asset('template/public') }}/assets/js/nice-select.js"></script>
+<script src="{{ asset('template/public') }}/assets/js/meanmenu.js"></script>
+<script src="{{ asset('template/public') }}/assets/js/isotope-pkgd.js"></script>
+<script src="{{ asset('template/public') }}/assets/js/imagesloaded-pkgd.js"></script>
+<script src="{{ asset('template/public') }}/assets/js/ajax-form.js"></script>
+<script src="{{ asset('template/public') }}/assets/js/main.js"></script>

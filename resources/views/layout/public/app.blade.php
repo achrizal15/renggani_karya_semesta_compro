@@ -15,7 +15,7 @@
     <meta property="og:title" content="Renggani Karya Semesta">
     <meta property="og:description"
         content="Kami adalah Renggani Karya Semesta, penyedia solusi teknologi dan IT yang inovatif. Temukan lebih banyak tentang layanan kami di sini.">
-    <meta property="og:image" content="{{ asset('template') }}/assets/img/logo/logo-black.svg">
+    <meta property="og:image" content="{{ asset('dist/public') }}/assets/img/logo/logo-black.svg">
     <meta property="og:url" content="https://rengganikaryasemesta.com/">
     <meta property="og:type" content="website">
 
@@ -23,34 +23,34 @@
     <meta property="wa:title" content="Renggani Karya Semesta">
     <meta property="wa:description"
         content="Kami adalah Renggani Karya Semesta, penyedia solusi teknologi dan IT yang inovatif. Temukan lebih banyak tentang layanan kami di sini.">
-    <meta property="wa:image" content="{{ asset('template') }}/assets/img/logo/logo-black.svg">
+    <meta property="wa:image" content="{{ asset('dist/public') }}/assets/img/logo/logo-black.svg">
 
     <!-- Meta untuk Open Graph (OG) -->
     <meta property="og:title" content="Renggani Karya Semesta">
     <meta property="og:description"
         content="Kami adalah Renggani Karya Semesta, penyedia solusi teknologi dan IT yang inovatif. Temukan lebih banyak tentang layanan kami di sini.">
-    <meta property="og:image" content="{{ asset('template') }}/assets/img/logo/logo-black.svg">
+    <meta property="og:image" content="{{ asset('dist/public') }}/assets/img/logo/logo-black.svg">
     <meta property="og:url" content="https://rengganikaryasemesta.com/">
     <meta property="og:type" content="website">
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Place favicon.ico in the root directory -->
-    <link rel="shortcut icon" type="image/x-icon" href="{{ asset('template') }}/assets/img/logo/logo-black.svg">
+    <link rel="shortcut icon" type="image/x-icon" href="{{ asset('dist/public') }}/assets/img/logo/logo-black.svg">
 
     <!-- CSS here -->
-    <link rel="stylesheet" href="{{ asset('template') }}/assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="{{ asset('template') }}/assets/css/animate.css">
-    <link rel="stylesheet" href="{{ asset('template') }}/assets/css/custom-animation.css">
-    <link rel="stylesheet" href="{{ asset('template') }}/assets/css/swiper-bundle.css">
-    <link rel="stylesheet" href="{{ asset('template') }}/assets/css/slick.css">
-    <link rel="stylesheet" href="{{ asset('template') }}/assets/css/nice-select.css">
-    <link rel="stylesheet" href="{{ asset('template') }}/assets/css/flaticon.css">
-    <link rel="stylesheet" href="{{ asset('template') }}/assets/css/meanmenu.css">
-    <link rel="stylesheet" href="{{ asset('template') }}/assets/css/font-awesome-pro.css">
-    <link rel="stylesheet" href="{{ asset('template') }}/assets/css/magnific-popup.css">
-    <link rel="stylesheet" href="{{ asset('template') }}/assets/css/spacing.css">
-    <link rel="stylesheet" href="{{ asset('template') }}/assets/css/style.css">
+    <link rel="stylesheet" href="{{ asset('dist/public') }}/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ asset('dist/public') }}/assets/css/animate.css">
+    <link rel="stylesheet" href="{{ asset('dist/public') }}/assets/css/custom-animation.css">
+    <link rel="stylesheet" href="{{ asset('dist/public') }}/assets/css/swiper-bundle.css">
+    <link rel="stylesheet" href="{{ asset('dist/public') }}/assets/css/slick.css">
+    <link rel="stylesheet" href="{{ asset('dist/public') }}/assets/css/nice-select.css">
+    <link rel="stylesheet" href="{{ asset('dist/public') }}/assets/css/flaticon.css">
+    <link rel="stylesheet" href="{{ asset('dist/public') }}/assets/css/meanmenu.css">
+    <link rel="stylesheet" href="{{ asset('dist/public') }}/assets/css/font-awesome-pro.css">
+    <link rel="stylesheet" href="{{ asset('dist/public') }}/assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="{{ asset('dist/public') }}/assets/css/spacing.css">
+    <link rel="stylesheet" href="{{ asset('dist/public') }}/assets/css/style.css">
     @yield('styles')
 </head>
 
