@@ -19,7 +19,7 @@
                         <div
                             class="tp-counter-2__item d-flex align-items-center justify-content-sm-start justify-content-center">
                             <div class="tp-counter-2__icon">
-                                <img src="{{ asset('template') }}/assets/img/counter/counter-1.png" alt="">
+                                <img src="{{ asset('dist/public') }}/assets/img/counter/counter-1.png" alt="">
                             </div>
                             <div class="tp-counter-2__content">
                                 <h4><span class="counter">20</span>+</h4>
@@ -31,7 +31,7 @@
                         <div
                             class="tp-counter-2__item d-flex align-items-center justify-content-sm-start justify-content-center">
                             <div class="tp-counter-2__icon">
-                                <img src="{{ asset('template') }}/assets/img/counter/counter-2.png" alt="">
+                                <img src="{{ asset('dist/public') }}/assets/img/counter/counter-2.png" alt="">
                             </div>
                             <div class="tp-counter-2__content">
                                 <h4 class="counter">1200</h4>
@@ -43,7 +43,7 @@
                         <div
                             class="tp-counter-2__item d-flex align-items-center justify-content-sm-start justify-content-center">
                             <div class="tp-counter-2__icon">
-                                <img src="{{ asset('template') }}/assets/img/counter/counter-3.png" alt="">
+                                <img src="{{ asset('dist/public') }}/assets/img/counter/counter-3.png" alt="">
                             </div>
                             <div class="tp-counter-2__content">
                                 <h4 class="counter">280</h4>
@@ -55,7 +55,7 @@
                         <div
                             class="tp-counter-2__item d-flex align-items-center justify-content-sm-start justify-content-center">
                             <div class="tp-counter-2__icon">
-                                <img src="{{ asset('template') }}/assets/img/counter/counter-4.png" alt="">
+                                <img src="{{ asset('dist/public') }}/assets/img/counter/counter-4.png" alt="">
                             </div>
                             <div class="tp-counter-2__content">
                                 <h4 class="counter">260</h4>
@@ -73,23 +73,23 @@
     <!-- tp-about-area-start -->
     <div class="tp-about__area pt-120 pb-120 p-relative">
         <div class="tp-about__shape-3-1">
-            <img src="{{ asset('template') }}/assets/img/hero/hero-shape-3-5.png" alt="">
+            <img src="{{ asset('dist/public') }}/assets/img/hero/hero-shape-3-5.png" alt="">
         </div>
         <div class="tp-about__shape-3-2">
-            <img src="{{ asset('template') }}/assets/img/hero/hero-shape-3-6.png" alt="">
+            <img src="{{ asset('dist/public') }}/assets/img/hero/hero-shape-3-6.png" alt="">
         </div>
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-xl-6 col-lg-6 wow tpfadeLeft" data-wow-duration=".9s" data-wow-delay=".5s">
                     <div class="tp-about__thumb-wrapper p-relative">
                         <div class="tp-about__shape-1">
-                            <img src="{{ asset('template') }}/assets/img/hero/hero-shape-3-1.png" alt="">
+                            <img src="{{ asset('dist/public') }}/assets/img/hero/hero-shape-3-1.png" alt="">
                         </div>
                         <div class="tp-about__shape-2">
-                            <img src="{{ asset('template') }}/assets/img/hero/hero-shape-3-2.png" alt="">
+                            <img src="{{ asset('dist/public') }}/assets/img/hero/hero-shape-3-2.png" alt="">
                         </div>
                         <div class="tp-about__thumb">
-                            <img src="{{ asset('template') }}/assets/img/hero/hero-4.jpg" alt="">
+                            <img src="{{ asset('dist/public') }}/assets/img/hero/hero-4.jpg" alt="">
                         </div>
                     </div>
                 </div>
@@ -127,7 +127,7 @@
                 <div class="col-xl-6 col-lg-6 wow tpfadeLeft" data-wow-duration=".9s" data-wow-delay=".5s">
                     <div class="tp-project__item mb-30">
                         <div class="tp-project__thumb fix">
-                            <a href="project-details.html"><img src="{{ asset('template') }}/assets/img/team/team-1.jpg"
+                            <a href="project-details.html"><img src="{{ asset('dist/public') }}/assets/img/team/team-1.jpg"
                                     alt=""></a>
                         </div>
                         <div class="tp-project__content">
@@ -140,7 +140,7 @@
                 <div class="col-xl-6 col-lg-6 wow tpfadeRight" data-wow-duration=".9s" data-wow-delay=".7s">
                     <div class="tp-project__item mb-30">
                         <div class="tp-project__thumb fix">
-                            <a href="project-details.html"><img src="{{ asset('template') }}/assets/img/team/team-2.jpg"
+                            <a href="project-details.html"><img src="{{ asset('dist/public') }}/assets/img/team/team-2.jpg"
                                     alt=""></a>
                         </div>
                         <div class="tp-project__content">
@@ -153,8 +153,8 @@
                 <div class="col-xl-6 col-lg-6 wow tpfadeLeft" data-wow-duration=".9s" data-wow-delay=".9s">
                     <div class="tp-project__item mb-30">
                         <div class="tp-project__thumb fix">
-                            <a href="project-details.html"><img src="{{ asset('template') }}/assets/img/team/team-3.jpg"
-                                    alt=""></a>
+                            <a href="project-details.html"><img
+                                    src="{{ asset('dist/public') }}/assets/img/team/team-3.jpg" alt=""></a>
                         </div>
                         <div class="tp-project__content">
                             <h3 class="tp-project__title"><a href="project-details.html">Business Setup &
@@ -166,8 +166,8 @@
                 <div class="col-xl-6 col-lg-6 wow tpfadeRight" data-wow-duration=".9s" data-wow-delay="1s">
                     <div class="tp-project__item mb-30">
                         <div class="tp-project__thumb fix">
-                            <a href="project-details.html"><img src="{{ asset('template') }}/assets/img/team/team-4.jpg"
-                                    alt=""></a>
+                            <a href="project-details.html"><img
+                                    src="{{ asset('dist/public') }}/assets/img/team/team-4.jpg" alt=""></a>
                         </div>
                         <div class="tp-project__content">
                             <h3 class="tp-project__title"><a href="project-details.html">Mainland Company
@@ -204,7 +204,7 @@
                         data-wow-delay=".5s">
                         <div class="tp-team__item text-center">
                             <div class="tp-team__img fix">
-                                <img src="{{ asset('template') }}/assets/img/team/team-5.png" alt="">
+                                <img src="{{ asset('dist/public') }}/assets/img/team/team-5.png" alt="">
                             </div>
                             <div class="tp-team__content">
                                 <h4 class="tp-team__title"><a href="about-me.html">Cameron Williamson</a></h4>
@@ -222,7 +222,7 @@
                         data-wow-delay=".7s">
                         <div class="tp-team__item text-center">
                             <div class="tp-team__img fix">
-                                <img src="{{ asset('template') }}/assets/img/team/team-6.png" alt="">
+                                <img src="{{ asset('dist/public') }}/assets/img/team/team-6.png" alt="">
                             </div>
                             <div class="tp-team__content">
                                 <h4 class="tp-team__title"><a href="about-me.html">Eleanor Pena</a></h4>
@@ -240,7 +240,7 @@
                         data-wow-delay=".9s">
                         <div class="tp-team__item text-center">
                             <div class="tp-team__img fix">
-                                <img src="{{ asset('template') }}/assets/img/team/team-7.png" alt="">
+                                <img src="{{ asset('dist/public') }}/assets/img/team/team-7.png" alt="">
                             </div>
                             <div class="tp-team__content">
                                 <h4 class="tp-team__title"><a href="about-me.html">Bessie Cooper</a></h4>
@@ -258,7 +258,7 @@
                         data-wow-delay="1s">
                         <div class="tp-team__item text-center">
                             <div class="tp-team__img fix">
-                                <img src="{{ asset('template') }}/assets/img/team/team-8.png" alt="">
+                                <img src="{{ asset('dist/public') }}/assets/img/team/team-8.png" alt="">
                             </div>
                             <div class="tp-team__content">
                                 <h4 class="tp-team__title"><a href="about-me.html">Darlene Robertson</a></h4>
@@ -278,10 +278,10 @@
     </div>
     <div class="tp-testimonial-3__area pt-120 pb-100 p-relative">
         <div class="tp-testimonial-3__shape-3-1">
-            <img src="{{ asset('template') }}/assets/img/hero/hero-shape-3-3.png" alt="">
+            <img src="{{ asset('dist/public') }}/assets/img/hero/hero-shape-3-3.png" alt="">
         </div>
         <div class="tp-testimonial-3__shape-3-2">
-            <img src="{{ asset('template') }}/assets/img/hero/hero-shape-3-4.png" alt="">
+            <img src="{{ asset('dist/public') }}/assets/img/hero/hero-shape-3-4.png" alt="">
         </div>
         <div class="container">
             <div class="row justify-content-center">
@@ -297,7 +297,8 @@
                     <div class="col-xl-6 col-lg-6 wow tpfadeLeft" data-wow-duration=".9s" data-wow-delay=".5s">
                         <div class="tp-testimonial-3__item d-flex mb-25">
                             <div class="tp-testimonial-3__icon">
-                                <img src="{{ asset('template') }}/assets/img/hero/hero-circle-icon-1.png" alt="">
+                                <img src="{{ asset('dist/public') }}/assets/img/hero/hero-circle-icon-1.png"
+                                    alt="">
                             </div>
                             <div class="tp-testimonial-3__content">
                                 <p>Wow. What a great experience copywriter. for Quixtex is a very talented digital
@@ -313,7 +314,8 @@
                         </div>
                         <div class="tp-testimonial-3__item tp-testimonial-3__item-2 d-flex mb-25">
                             <div class="tp-testimonial-3__icon">
-                                <img src="{{ asset('template') }}/assets/img/hero/hero-circle-icon-2.png" alt="">
+                                <img src="{{ asset('dist/public') }}/assets/img/hero/hero-circle-icon-2.png"
+                                    alt="">
                             </div>
                             <div class="tp-testimonial-3__content">
                                 <p>Wow. What a great experience copywriter. for Quixtex is a very talented digital
@@ -329,7 +331,8 @@
                         <div class="tp-testimonial-3__item tp-testimonial-3__item-2 d-flex mb-25 wow tpfadeUp"
                             data-wow-duration=".9s" data-wow-delay=".7s">
                             <div class="tp-testimonial-3__icon">
-                                <img src="{{ asset('template') }}/assets/img/hero/hero-circle-icon-4.png" alt="">
+                                <img src="{{ asset('dist/public') }}/assets/img/hero/hero-circle-icon-4.png"
+                                    alt="">
                             </div>
                             <div class="tp-testimonial-3__content">
                                 <p>Wow. What a great experience copywriter. for Quixtex is a very talented digital
@@ -343,7 +346,8 @@
                         <div class="tp-testimonial-3__item tp-testimonial-3__item-2 d-flex mb-25 wow tpfadeUp"
                             data-wow-duration=".9s" data-wow-delay=".9s">
                             <div class="tp-testimonial-3__icon">
-                                <img src="{{ asset('template') }}/assets/img/hero/hero-circle-icon-3.png" alt="">
+                                <img src="{{ asset('dist/public') }}/assets/img/hero/hero-circle-icon-3.png"
+                                    alt="">
                             </div>
                             <div class="tp-testimonial-3__content">
                                 <p>Wow. What a great experience copywriter. for Quixtex is a very talented digital
@@ -357,7 +361,8 @@
                         <div class="tp-testimonial-3__item tp-testimonial-3__item-2 d-flex mb-25 wow tpfadeUp"
                             data-wow-duration=".9s" data-wow-delay="1s">
                             <div class="tp-testimonial-3__icon">
-                                <img src="{{ asset('template') }}/assets/img/hero/hero-circle-icon-1.png" alt="">
+                                <img src="{{ asset('dist/public') }}/assets/img/hero/hero-circle-icon-1.png"
+                                    alt="">
                             </div>
                             <div class="tp-testimonial-3__content">
                                 <p>Wow. What a great experience copywriter. for Quixtex is a very talented digital
@@ -387,7 +392,7 @@
                 <div class="col-xl-6 col-lg-6 mb-30 wow tpfadeLeft" data-wow-duration=".9s" data-wow-delay=".5s">
                     <div class="tp-blog__item">
                         <div class="tp-blog__thumb fix">
-                            <a href="blog-details.html"><img src="{{ asset('template') }}/assets/img/blog/blog-1.jpg"
+                            <a href="blog-details.html"><img src="{{ asset('dist/public') }}/assets/img/blog/blog-1.jpg"
                                     alt=""></a>
                         </div>
                         <div class="tp-blog__content-wrapper">
@@ -406,7 +411,7 @@
                 <div class="col-xl-6 col-lg-6 mb-30 wow tpfadeRight" data-wow-duration=".9s" data-wow-delay=".7s">
                     <div class="tp-blog__item">
                         <div class="tp-blog__thumb fix">
-                            <a href="blog-details.html"><img src="{{ asset('template') }}/assets/img/blog/blog-2.jpg"
+                            <a href="blog-details.html"><img src="{{ asset('dist/public') }}/assets/img/blog/blog-2.jpg"
                                     alt=""></a>
                         </div>
                         <div class="tp-blog__content-wrapper">
