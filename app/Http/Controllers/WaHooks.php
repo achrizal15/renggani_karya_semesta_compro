@@ -33,25 +33,27 @@ class WaHooks extends Controller
         {
             $curl = curl_init();
 
-            curl_setopt_array($curl, array(
-                CURLOPT_URL => "https://api.fonnte.com/send",
-                CURLOPT_RETURNTRANSFER => true,
-                CURLOPT_ENCODING => "",
-                CURLOPT_MAXREDIRS => 10,
-                CURLOPT_TIMEOUT => 0,
-                CURLOPT_FOLLOWLOCATION => true,
-                CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
-                CURLOPT_CUSTOMREQUEST => "POST",
-                CURLOPT_POSTFIELDS => array(
-                    'target' => $target,
-                    'message' => $data['message'],
-                    'url' => $data['url'],
-                    'filename' => $data['filename'],
-                ),
-                CURLOPT_HTTPHEADER => array(
-                    "Authorization: TOKEN"
-                ),
-            )
+            curl_setopt_array(
+                $curl,
+                array(
+                    CURLOPT_URL => "https://api.fonnte.com/send",
+                    CURLOPT_RETURNTRANSFER => true,
+                    CURLOPT_ENCODING => "",
+                    CURLOPT_MAXREDIRS => 10,
+                    CURLOPT_TIMEOUT => 0,
+                    CURLOPT_FOLLOWLOCATION => true,
+                    CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+                    CURLOPT_CUSTOMREQUEST => "POST",
+                    CURLOPT_POSTFIELDS => array(
+                        'target' => $target,
+                        'message' => $data['message'],
+                        'url' => $data['url'],
+                        'filename' => $data['filename'],
+                    ),
+                    CURLOPT_HTTPHEADER => array(
+                        "Authorization: 5y8B+tAP2-!!T-QGgjy_"
+                    ),
+                )
             );
 
             $response = curl_exec($curl);
