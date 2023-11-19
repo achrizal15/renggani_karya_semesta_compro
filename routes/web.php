@@ -17,28 +17,6 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 })->name('home');
-Route::get("/whatsapp/generate-qr", function () {
-    $url = 'https://wa.srv15.wapanels.com/generate-qr';
-
-    $data = [
-        'device' => '6287865503778',
-        'api_key' => 'AVwqwBAoRYn7YoZwSeqtSuBsEURD6Z',
-    ];
-
-    $client = new Client();
-
-
-    $response = $client->post($url, [
-        'json' => $data,
-    ]);
-
-    $statusCode = $response->getStatusCode();
-    $body = $response->getBody()->getContents();
-
-    $result = json_decode($body, true);
-    if (array_key_exists('qrcode', $result)) {
-        return view('temp', ['qrcode' => $result['qrcode']]);
-    }
-    return response()->json($result);
+Route::post("/whatsapp/generate-qr", function () {
 
 });
