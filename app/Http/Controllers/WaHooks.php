@@ -12,21 +12,21 @@ class WaHooks extends Controller
 
         $json = file_get_contents('php://input');
         $data = json_decode($json, true);
-        $device = "6289512589756";
+        // $device = "6289512589756";
         $sender = $data['sender'];
         $message = $data['message'];
-        $text = $data['text']; //button text
-        $member = $data['member']; //group member who send the message
-        $name = $data['name'];
-        $location = $data['location'];
-        $pollname = $data['pollname'];
-        $choices = $data['choices'];
+        // $text = $data['text']; //button text
+        // $member = $data['member']; //group member who send the message
+        // $name = $data['name'];
+        // $location = $data['location'];
+        // $pollname = $data['pollname'];
+        // $choices = $data['choices'];
 
         //data below will only received by device with all feature package
 //start
-        $url = $data['url'];
-        $filename = $data['filename'];
-        $extension = $data['extension'];
+        // $url = $data['url'];
+        // $filename = $data['filename'];
+        // $extension = $data['extension'];
         //end
 
         function sendFonnte($target, $data)
