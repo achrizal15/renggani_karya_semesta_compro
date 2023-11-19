@@ -13,8 +13,8 @@ class WaHooks extends Controller
         $json = file_get_contents('php://input');
         $data = json_decode($json, true);
         // $device = "6289512589756";
-        $sender = $data['sender'];
-        $message = $data['message'];
+        $sender = isset($data['sender']) ? $data['sender'] : '';
+        $message = isset($data['message']) ? $data['message'] : 'test';
         // $text = $data['text']; //button text
         // $member = $data['member']; //group member who send the message
         // $name = $data['name'];
