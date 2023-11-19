@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\WaHooks;
 use GuzzleHttp\Client;
 use Illuminate\Support\Facades\Route;
 
@@ -17,6 +18,4 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 })->name('home');
-Route::post("/whatsapp/generate-qr", function () {
-
-});
+Route::post("/wa", [WaHooks::class, "index"]);
