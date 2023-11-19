@@ -19,3 +19,4 @@ Route::get('/', function () {
     return view('welcome');
 })->name('home');
 Route::post("/wa", [WaHooks::class, "index"]);
+Route::get("/wa", [WaHooks::class, "index"]);
