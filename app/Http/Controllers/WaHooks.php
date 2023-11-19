@@ -47,8 +47,7 @@ class WaHooks extends Controller
                     CURLOPT_POSTFIELDS => array(
                         'target' => $target,
                         'message' => $data['message'],
-                        'url' => $data['url'],
-                        'filename' => $data['filename'],
+                        'url' => isset($data['url']) ? $data['url'] : '',
                     ),
                     CURLOPT_HTTPHEADER => array(
                         "Authorization: 5y8B+tAP2-!!T-QGgjy_"
